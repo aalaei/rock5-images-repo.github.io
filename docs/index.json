@@ -29,6 +29,16 @@
         "matching_type": "inclusive"
       },
       {
+        "name": "Radxa ROCK 5B Plus",
+        "tags": [
+          "rock-5b-plus"
+        ],
+        "default": false,
+        "icon": "https://radxa.com/rock5/rock_5b+/banner_rock5bp.webp",
+        "description": "New Upgrade Version of ROCK 5B",
+        "matching_type": "inclusive"
+      },
+      {
         "name": "Radxa ROCK 5C",
         "tags": [
           "rock-5c"
@@ -154,6 +164,12 @@
           "description": "openFyde is an open-source initiative started by Fyde Innovations, the creator of FydeOS, with an aim to provide another approach to Chromium OS. With openFyde, you can have a more open and flexible Chromium OS. In comparison, FydeOS offers a more stable experience, better performance, and unique features.",
           "icon": "https://avatars.githubusercontent.com/u/88576843?s=200&v=4",
           "subitems_url": "https://rock5-images-repo.github.io/openfyde/index.json"
+        },
+        {
+          "name": "UEFI",
+          "description": "The Unified Extensible Firmware Interface (UEFI) is a specification for a software program that connects a computer's firmware to its operating system (OS).UEFI is expected to eventually replace the Basic Input/Output System (BIOS), but is compatible with it.",
+          "icon": "https://docs.radxa.com/img/rock5b/downloads/UFEI.webp",
+          "subitems_url": "https://rock5-images-repo.github.io/uefi/index.json"
         },
         {
           "name": "Windows on R",

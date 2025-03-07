@@ -1,0 +1,32 @@
+{
+    "os_list": [
+            {
+            "name": "UEFI for Rock 5B+",
+            "description": "The Unified Extensible Firmware Interface (UEFI) is a specification for a software program that connects a computer's firmware to its operating system (OS).UEFI is expected to eventually replace the Basic Input/Output System (BIOS), but is compatible with it.",
+            "url": "https://github.com/edk2-porting/edk2-rk3588/releases/download/v0.12.2/rock-5b_UEFI_Release_v0.12.2.img",
+            "icon": "https://docs.radxa.com/img/rock5b/downloads/UFEI.webp",
+            "website": "https://github.com/edk2-porting/edk2-rk3588",
+            "extract_size": 409600000,
+            "image_download_size": 1270000000,
+            "release_date": "2025-01-05",
+            "devices": [
+                "rock-5b"
+            ],
+            "init_format": "none"
+            },
+            {
+            "name": "UEFI for Rock 5B+",
+            "description": "The Unified Extensible Firmware Interface (UEFI) is a specification for a software program that connects a computer's firmware to its operating system (OS).UEFI is expected to eventually replace the Basic Input/Output System (BIOS), but is compatible with it.",
+            "url": "https://github.com/edk2-porting/edk2-rk3588/releases/download/v0.12.2/rock-5bplus_UEFI_Release_v0.12.2.img",
+            "icon": "https://docs.radxa.com/img/rock5b/downloads/UFEI.webp",
+            "website": "https://github.com/edk2-porting/edk2-rk3588",
+            "extract_size": 409600000,
+            "image_download_size": 1270000000,
+            "release_date": "2025-01-05",
+            "devices": [
+                "rock-5b-plus"
+            ],
+            "init_format": "none"
+            }
+        ]
+}

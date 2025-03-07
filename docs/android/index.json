@@ -17,14 +17,42 @@
           {
             "name": "Android 12 (Rock 5B)",
             "description": "Radxa Android 12 build",
-            "url": "https://github.com/radxa/manifests/releases/download/Rock-android12-20230315/Rock5B-Android12-rkr12-20230315-gpt.zip",
+            "url": "https://github.com/radxa/manifests/releases/download/Android12_rkr14_20240419/Rock5B_Android12_rkr14_20240419-gpt.zip",
             "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Android_robot_%282014-2019%29.svg/151px-Android_robot_%282014-2019%29.svg.png",
             "website": "https://docs.radxa.com/en/rock5/official-images?model=ROCK+5B",
             "extract_size": 409600000,
             "image_download_size": 789000000,
-            "release_date": "2023-03-14",
+            "release_date": "2024-04-19",
             "devices": [
               "rock-5b"
+            ],
+            "init_format": "none"
+          },
+          {
+            "name": "Android 12 (Rock 5B+) sdcard/emmc",
+            "description": "Radxa Android 12 build",
+            "url": "https://github.com/radxa/manifests/releases/download/android12-radxa-20240708/Rock5BPlus-Android12-rkr14-SD-or-eMMC-20240705-1-gpt.zip",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Android_robot_%282014-2019%29.svg/151px-Android_robot_%282014-2019%29.svg.png",
+            "website": "https://docs.radxa.com/en/rock5/rock5b/download",
+            "extract_size": 409600000,
+            "image_download_size": 868054720,
+            "release_date": "2024-07-08",
+            "devices": [
+              "rock-5b-plus"
+            ],
+            "init_format": "none"
+          },
+          {
+            "name": "Android 12 (Rock 5B+) NVME only",
+            "description": "Radxa Android 12 build",
+            "url": "https://github.com/radxa/manifests/releases/download/android12-radxa-20240708/Rock5BPlus-Android12-rkr14-SPI_NVME-20240705-update.zip",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Android_robot_%282014-2019%29.svg/151px-Android_robot_%282014-2019%29.svg.png",
+            "website": "https://docs.radxa.com/en/rock5/rock5b/download",
+            "extract_size": 409600000,
+            "image_download_size": 1646299773,
+            "release_date": "2024-07-08",
+            "devices": [
+              "rock-5b-plus"
             ],
             "init_format": "none"
           }

@@ -153,6 +153,20 @@
               "rock-5b"
             ],
             "init_format": "none"
+          },
+          {
+            "name": "Radxa OS (ROCK 5B+ Debian Bookworm KDE)",
+            "description": "Radxa OS is the official operating system developed by Radxa based on Debian",
+            "url": "https://github.com/radxa-build/rock-5b-plus/releases/download/rsdk-b2/rock-5b-plus_bookworm_kde_b2.output.img.xz",
+            "icon": "https://docs.radxa.com/en/logo.svg",
+            "website": "https://docs.radxa.com/en/rock5/rock5b/download",
+            "extract_size": 409600000,
+            "image_download_size": 1280000000,
+            "release_date": "2024-08-08",
+            "devices": [
+              "rock-5b-plus"
+            ],
+            "init_format": "none"
           }
     ]
   }
