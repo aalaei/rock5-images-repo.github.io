@@ -27,6 +27,20 @@
               "rock-5b"
             ],
             "init_format": "none"
+          },
+          {
+            "name": "BredOS Archlinux Rock 5B+",
+            "description": "Get a buttery-smooth experience with BredOS!",
+            "url": "https://github.com/BredOS/images/releases/download/2025-01-08/BredOS-ARM-Rock5B-Plus-2025-01-08.img.xz",
+            "icon": "https://bredos.org/assets/img/bredlogo.png",
+            "website": "https://bredos.org",
+            "extract_size": 5027057664,
+            "image_download_size": 1065489156,
+            "release_date": "2025-01-08",
+            "devices": [
+              "rock-5b-plus"
+            ],
+            "init_format": "none"
           }
     ]
   }

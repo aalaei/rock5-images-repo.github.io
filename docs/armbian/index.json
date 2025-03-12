@@ -1,6 +1,6 @@
 {
     "os_list": [
-        {
+          {
             "name": "Armbian Debian Bookworm",
             "description": "Armbian is a computing build framework that allows users to create ready-to-use images with working kernels in variable user space configurations for various single board computers. It provides various pre-build images for some supported boards. These are usually Debian or Ubuntu flavored.",
             "url": "https://xogium.performanceservers.nl/archive/rock-5a/archive/Armbian_23.11.1_Rock-5a_bookworm_edge_6.7.0-rc1.img.xz",
@@ -43,6 +43,34 @@
             "init_format": "none"
           },
           {
+            "name": "Armbian Debian Bookworm (Cinnamon)",
+            "description": "Armbian is a computing build framework that allows users to create ready-to-use images with working kernels in variable user space configurations for various single board computers. It provides various pre-build images for some supported boards. These are usually Debian or Ubuntu flavored.",
+            "url": "https://dl.armbian.com/rock-5b-plus/Bookworm_vendor_cinnamon-backported-mesa",
+            "icon": "https://i.ibb.co/Cnf2LW4/de88b5d6324f3fa7631368880363494a0faa601b.png",
+            "website": "https://www.armbian.com/rock-5b-plus/",
+            "extract_size": 409600000,
+            "image_download_size": 1270000000,
+            "release_date": "2025-02-26",
+            "devices": [
+              "rock-5b-plus"
+            ],
+            "init_format": "none"
+          },
+          {
+            "name": "Armbian Debian Bookworm (XFCE)",
+            "description": "Armbian is a computing build framework that allows users to create ready-to-use images with working kernels in variable user space configurations for various single board computers. It provides various pre-build images for some supported boards. These are usually Debian or Ubuntu flavored.",
+            "url": "https://dl.armbian.com/rock-5b-plus/Bookworm_vendor_xfce",
+            "icon": "https://i.ibb.co/Cnf2LW4/de88b5d6324f3fa7631368880363494a0faa601b.png",
+            "website": "https://www.armbian.com/rock-5b-plus/",
+            "extract_size": 409600000,
+            "image_download_size": 1270000000,
+            "release_date": "2025-02-26",
+            "devices": [
+              "rock-5b-plus"
+            ],
+            "init_format": "none"
+          },
+          {
             "name": "Armbian Ubuntu Jammy",
             "description": "Armbian is a computing build framework that allows users to create ready-to-use images with working kernels in variable user space configurations for various single board computers. It provides various pre-build images for some supported boards. These are usually Debian or Ubuntu flavored.",
             "url": "https://github.com/armbian/community/releases/download/24.5.0-trunk.19/Armbian_community_24.5.0-trunk.19_Rock-5b_jammy_edge_6.8.0-rc1_gnome_desktop.img.xz",
@@ -53,6 +81,48 @@
             "release_date": "2024-01-01",
             "devices": [
               "rock-5b"
+            ],
+            "init_format": "none"
+          },
+          {
+            "name": "Armbian Ubuntu Jammy (XFCE)",
+            "description": "Armbian is a computing build framework that allows users to create ready-to-use images with working kernels in variable user space configurations for various single board computers. It provides various pre-build images for some supported boards. These are usually Debian or Ubuntu flavored.",
+            "url": "https://dl.armbian.com/rock-5b-plus/Noble_vendor_xfce",
+            "icon": "https://i.ibb.co/Cnf2LW4/de88b5d6324f3fa7631368880363494a0faa601b.png",
+            "website": "https://www.armbian.com/rock-5b-plus/",
+            "extract_size": 409600000,
+            "image_download_size": 1270000000,
+            "release_date": "2025-02-26",
+            "devices": [
+              "rock-5b-plus"
+            ],
+            "init_format": "none"
+          },
+          {
+            "name": "Armbian Ubuntu Jammy (Gnome)",
+            "description": "Armbian is a computing build framework that allows users to create ready-to-use images with working kernels in variable user space configurations for various single board computers. It provides various pre-build images for some supported boards. These are usually Debian or Ubuntu flavored.",
+            "url": "https://dl.armbian.com/rock-5b-plus/Noble_vendor_gnome",
+            "icon": "https://i.ibb.co/Cnf2LW4/de88b5d6324f3fa7631368880363494a0faa601b.png",
+            "website": "https://www.armbian.com/rock-5b-plus/",
+            "extract_size": 409600000,
+            "image_download_size": 1270000000,
+            "release_date": "2025-02-26",
+            "devices": [
+              "rock-5b-plus"
+            ],
+            "init_format": "none"
+          },
+          {
+            "name": "Armbian Debian Bookworm (Home Assistant)",
+            "description": "Home Assistant OS – Based on Armbian and Debian for seamless smart home automation.",
+            "url": "https://dl.armbian.com/rock-5b-plus/Bookworm_current_minimal-homeassistant",
+            "icon": "https://avatars.githubusercontent.com/u/13844975?s=200&v=4",
+            "website": "https://www.armbian.com/rock-5b-plus/",
+            "extract_size": 409600000,
+            "image_download_size": 1270000000,
+            "release_date": "2025-02-26",
+            "devices": [
+              "rock-5b-plus"
             ],
             "init_format": "none"
           }
